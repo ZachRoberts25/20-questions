@@ -14,4 +14,12 @@ export class AppComponent {
   goToLink(url: string) {
     window.open(url, '_blank');
   }
+
+  scrollToElement($element: any): void {
+    $element.scrollIntoView({
+      behavior: 'smooth',
+      block: 'start',
+      inline: 'nearest',
+    });
+  }
 }

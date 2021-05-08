@@ -24,10 +24,59 @@
     </div>
     <div class="cta">
       <h1 class="title">Well-behaved women seldom make history</h1>
-      <button class="learn-more">LEARN MORE</button>
+      <button class="learn-more" (click)="scrollToElement(secondPage)">
+        LEARN MORE
+      </button>
     </div>
-    <!-- <img src="../assets/book.jpg" class="book" />
-    <img src="../assets/karen-roberts.jpg" class="headshot" /> -->
+    <!-- <img src="../assets/karen-roberts.jpg" class="headshot" /> -->
   </section>
-  <section class="second-page"></section>
+  <section class="second-page" #secondPage>
+    <img
+      src="../assets/book.jpg"
+      (click)="
+        goToLink(
+          'https://www.amazon.com/20-Questions-What-Dont-Matters/dp/1952884365'
+        )
+      "
+      class="book-front"
+    />
+    <img
+      src="../assets/book-back.jpg"
+      (click)="
+        goToLink(
+          'https://www.amazon.com/20-Questions-What-Dont-Matters/dp/1952884365'
+        )
+      "
+      class="book-back"
+    />
+  </section>
+  <section class="third-page">
+    <h1>Book Reviews</h1>
+    <div class="testimonial-container">
+      <div class="progress-bar"></div>
+      <div class="fas fa-quote-left fa-quote"></div>
+      <div class="fas fa-quote-right fa-quote"></div>
+      <p class="testimonial">
+        Normally, both your asses would be dead as fucking fried chicken, but
+        you happen to pull this shit while I'm in a transitional period so I
+        don't wanna kill you, I wanna help you. But I can't give you this case,
+        it don't belong to me. Besides, I've already been through too much shit
+        this morning over this case to hand it over to your dumb ass.
+      </p>
+      <div class="user">
+        <img
+          src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=200&fit=max&s=707b9c33066bf8808c934c8ab394dff6"
+          alt="user"
+          class="user-image"
+        />
+        <div class="user-details">
+          <h4 class="username">Miyah Myles</h4>
+          <p class="role">Marketing</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="fourth-page">
+    <h1>Speaking Engagements TBD</h1>
+  </section>
 </div>
