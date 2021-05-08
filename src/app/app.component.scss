@@ -81,15 +81,13 @@
   justify-content: center;
   img {
     cursor: pointer;
+    width: 350px;
   }
   .book-front {
     height: auto;
-    width: 350px;
-    margin-right: 25%;
-    margin-left: 10%;
+    margin-right: 10%;
   }
   .book-back {
-    width: 350px;
     height: auto;
   }
 }
