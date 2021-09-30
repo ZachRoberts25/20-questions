@@ -45,12 +45,12 @@ iframe {
 .video {
   align-self: center;
   width: 550px;
-  height: 350px;
+  height: 475px;
 }
-@media (max-width: 1200px) {
-  .nav-link {
-    display: none;
-  }
+img.karen-speaks {
+  width: 350px;
+  height: 350px;
+  transform: scale(2);
 }
 
 .book-karen {

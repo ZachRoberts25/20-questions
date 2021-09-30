@@ -21,6 +21,7 @@ const App = () => {
           </div>
           <div className='video'>
             <iframe
+              title='karen-professional-video'
               src='https://www.youtube.com/embed/jx5VvTDxs6g'
               frameBorder='0'
               allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture'

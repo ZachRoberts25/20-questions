@@ -1,4 +1,7 @@
-@media (max-width: 900px) {
+@media (max-width: 1200px) {
+  .nav-link {
+    display: none;
+  }
   .quote-container {
     flex-direction: column;
   }
@@ -25,5 +28,13 @@
 
   .book-karen h2 {
     display: none;
+  }
+
+  img.karen-speaks {
+    width: 250px;
+    height: 250px;
+    display: block;
+    margin: auto;
+    /* transform: scale(2); */
   }
 }
