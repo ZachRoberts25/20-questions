@@ -38,7 +38,7 @@ h2 {
   font-size: 4rem;
 }
 
-iframe {
+.page-1 iframe {
   width: 550px;
   height: 100%;
 }
@@ -56,6 +56,7 @@ img.karen-speaks {
 .book-karen {
   text-align: center;
   width: 100%;
+  padding-bottom: 4rem;
 }
 
 button {
@@ -69,4 +70,112 @@ button {
   display: inline-block;
   font-size: 36px;
   cursor: pointer;
+}
+
+.page-2 {
+  min-height: 100vh;
+  background-color: #e0e0e0;
+  width: 100%;
+  padding: 2rem;
+}
+
+.page-2 .image-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.page-2 img {
+  height: 400px;
+  max-width: 400px;
+  display: block;
+  padding: 2rem;
+  border-radius: 30%;
+}
+
+.page-2 h2 {
+  text-align: center;
+  color: rgb(36, 97, 31);
+}
+
+.page-3 {
+  min-height: 100vh;
+  background-color: #ffffff;
+  width: 100%;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.page-3 h2 {
+  text-align: center;
+  color: rgba(246, 97, 122, 1);
+  margin: 0;
+}
+
+.page-3 iframe {
+  width: 80%;
+  height: 550px;
+  margin-top: 4em;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.page-4 {
+  min-height: 100vh;
+  background-color: #ffffff;
+  width: 100%;
+  padding: 2rem;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(198, 226, 66, 1) 0%,
+    rgba(246, 97, 122, 1) 100%
+  );
+}
+
+.page-4 .testimonial-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.page-4 h2 {
+  color: #ffffff;
+  font-weight: bold;
+  margin-top: 1.5em;
+}
+
+.page-4 img.karen-speaks {
+  width: 250px;
+  height: 200px;
+  transform: scale(2.2);
+}
+
+.page-4 .testimonials {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.page-4 .testimonial {
+  max-width: 550px;
+  height: 400px;
+  font-size: 2em;
+  color: #ffffff;
+  border: 4px solid #e2ff86;
+  border-radius: 25px;
+  padding: 15px;
+  margin: 10px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+.page-4 .testimonial p {
+  padding: 0;
+  margin: 0;
+  font-weight: bold;
 }
